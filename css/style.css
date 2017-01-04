@@ -1869,7 +1869,10 @@ button, input, optgroup, select, textarea {
         height: 40px;
         font-size: 24px
     }
+	
+
 }
+
 
 @media (max-width: 360px) {
 	.work-request--options .options-a,
@@ -1878,7 +1881,10 @@ button, input, optgroup, select, textarea {
         width: 100%
     }
 
-
+	 .popups {
+    left: calc(100% / 1.9) !important;
+	}
+	
 	#form-popup {
     width: 105%;
 	height: 60%;
@@ -1965,4 +1971,9 @@ height:100%;
 width:100%;
 border:3px solid #999; 
 background:#fff;
+}
+@media (max-width: 800px){
+.popups {
+    left: calc(100% / 2.7) ;
+}
 }
