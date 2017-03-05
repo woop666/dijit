@@ -1,0 +1,13 @@
+.contakts {
+  color: #FFF;
+  font-family: 'Arial';
+  text-decoration: none; }
+  .contakts a {
+    text-decoration: none;
+    color: #26272d;
+    -webkit-transition-delay: 0.3s;
+            transition-delay: 0.3s; }
+    .contakts a:focus, .contakts a:hover {
+      color: #0000ee;
+      -webkit-animation-delay: 0.3s;
+              animation-delay: 0.3s; }
